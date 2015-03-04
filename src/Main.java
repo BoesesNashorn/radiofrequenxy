@@ -6,7 +6,7 @@ import Controller.DataController;
 public class Main {
 
     public static void main(String args[]){
-        DataController dataController = new DataController(1,5);
+        DataController dataController = new DataController();
         dataController.getData();
     }
 
